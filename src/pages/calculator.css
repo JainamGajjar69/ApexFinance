@@ -1,0 +1,109 @@
+.sip-calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2em auto;
+  padding: 1em;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  max-width: 600px;
+}
+
+.sip-calculator h3 {
+  font-size: 1.5em;
+}
+
+.sip-calculator-amount,
+.sip-calculator-year,
+.sip-calculator-interest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em 0;
+}
+
+.sip-calculator-amount input,
+.sip-calculator-year input,
+.sip-calculator-interest input {
+  margin: 0 1em;
+}
+
+.sip-calculator-amount span,
+.sip-calculator-year span,
+.sip-calculator-interest span {
+  margin-left: 0.5em;
+}
+
+.amount-slider,
+.year-slider,
+.interest-slider {
+  width: 100%;
+}
+
+.sip-calculator-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1em 0;
+}
+
+.sip-calculator-result {
+  margin-top: 1em;
+}
+
+.sip-calculator-result table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.sip-calculator-result th,
+.sip-calculator-result td {
+  padding: 0.5em;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.sip-calculator-result th {
+  background-color: #000000;
+}
+/* Highlight the input numbers in the calculator */
+.sip-calculator-amount input[type="number"],
+.sip-calculator-year input[type="number"],
+.sip-calculator-interest input[type="number"] {
+  color: rgb(0, 0, 0);
+}
+
+/* Highlight the slider thumb and the progress bar */
+.amount-slider::-webkit-slider-thumb,
+.amount-slider::-moz-range-thumb,
+.year-slider::-webkit-slider-thumb,
+.year-slider::-moz-range-thumb,
+.interest-slider::-webkit-slider-thumb,
+.interest-slider::-moz-range-thumb {
+  background-color: blue;
+}
+
+.amount-slider::-webkit-slider-runnable-track,
+.amount-slider::-moz-range-track,
+.year-slider::-webkit-slider-runnable-track,
+.year-slider::-moz-range-track,
+.interest-slider::-webkit-slider-runnable-track,
+.interest-slider::-moz-range-track {
+  background-color: #ccc;
+}
+
+/* Show the slider value on the thumb */
+.amount-slider::-webkit-slider-thumb::after,
+.amount-slider::-moz-range-thumb::after,
+.year-slider::-webkit-slider-thumb::after,
+.year-slider::-moz-range-thumb::after,
+.interest-slider::-webkit-slider-thumb::after,
+.interest-slider::-moz-range-thumb::after {
+  content: attr(value);
+  position: absolute;
+  top: -25px;
+  background-color: blue;
+  color: white;
+  font-size: 14px;
+  padding: 3px;
+  border-radius: 3px;
+}
