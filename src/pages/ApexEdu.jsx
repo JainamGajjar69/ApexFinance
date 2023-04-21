@@ -58,7 +58,7 @@ export default function ApexEdu() {
                     src="https://img.freepik.com/premium-photo/blue-money-business-graph-finance-chart-diagram-economy-3d-coin-background-with-growth-financial-data-concept-investment-market-profit-bar-success-market-stock-technology-currency-report_79161-2359.jpg"
                     alt=""
                     sizes="(max-width: 479px) 84vw, (max-width: 767px) 400px, (max-width: 991px) 43vw, (max-width: 1919px) 45vw, 43vw"
-                    srcset="https://img.freepik.com/premium-photo/blue-money-business-graph-finance-chart-diagram-economy-3d-coin-background-with-growth-financial-data-concept-investment-market-profit-bar-success-market-stock-technology-currency-report_79161-2359.jpg 500w, https://uploads-ssl.webflow.com/5f2c87244e4a48fad0b25c63/641884c17314b5407a62cee9_Product%20shot%20-%20light%20blog%20small-p-800.png 800w, https://uploads-ssl.webflow.com/5f2c87244e4a48fad0b25c63/641884c17314b5407a62cee9_Product%20shot%20-%20light%20blog%20small-p-1080.png 1080w, https://uploads-ssl.webflow.com/5f2c87244e4a48fad0b25c63/641884c17314b5407a62cee9_Product%20shot%20-%20light%20blog%20small-p-1600.png 1600w, https://img.freepik.com/premium-photo/blue-money-business-graph-finance-chart-diagram-economy-3d-coin-background-with-growth-financial-data-concept-investment-market-profit-bar-success-market-stock-technology-currency-report_79161-2359.jpg 1801w"
+                    srcset="https://img.freepik.com/premium-photo/blue-money-business-graph-finance-chart-diagram-economy-3d-coin-background-with-growth-financial-data-concept-investment-market-profit-bar-success-market-stock-technology-currency-report_79161-2359.jpg 500w, https://img.freepik.com/premium-photo/blue-money-business-graph-finance-chart-diagram-economy-3d-coin-background-with-growth-financial-data-concept-investment-market-profit-bar-success-market-stock-technology-currency-report_79161-2359.jpg 800w, https://img.freepik.com/premium-photo/blue-money-business-graph-finance-chart-diagram-economy-3d-coin-background-with-growth-financial-data-concept-investment-market-profit-bar-success-market-stock-technology-currency-report_79161-2359.jpg 1080w, https://img.freepik.com/premium-photo/blue-money-business-graph-finance-chart-diagram-economy-3d-coin-background-with-growth-financial-data-concept-investment-market-profit-bar-success-market-stock-technology-currency-report_79161-2359.jpg 1600w, https://img.freepik.com/premium-photo/blue-money-business-graph-finance-chart-diagram-economy-3d-coin-background-with-growth-financial-data-concept-investment-market-profit-bar-success-market-stock-technology-currency-report_79161-2359.jpg 1801w"
                     class="panel-top-image style-m3PEv"
                     id="style-m3PEv"
                   ></img>
@@ -71,7 +71,7 @@ export default function ApexEdu() {
                   <div class="blog-panel-foot">
                     <div class="blog-panel-meta-text">
                       <div>Learn Topics about Investing</div>
-                      <div >Index Funds and Many more</div>
+                      <div>Index Funds and Many more</div>
                       <div>
                         <div class="blog-post-panel-author w-dyn-bind-empty"></div>
                       </div>
