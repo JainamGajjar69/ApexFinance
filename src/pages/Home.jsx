@@ -33,14 +33,13 @@ export default function Home() {
             >
               <div class="snipcss0-4-10-11 style-F2RwW" id="style-F2RwW">
                 <iframe
-                  title="sus"
-                  src="https://www.youtube.com/embed/xvFZjo5PgG0"
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/gFQNPmLKj1k"
+                  title="YouTube video player"
                   frameborder="0"
-                  webkitallowfullscreen=""
-                  mozallowfullscreen=""
-                  allowfullscreen=""
-                  class="snipcss0-5-11-12 style-EkFdz"
-                  id="style-EkFdz"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
                 ></iframe>
               </div>
             </div>
@@ -53,7 +52,8 @@ export default function Home() {
         <div
           data-w-id="a2f9dfdb-2070-4147-d5a1-35705e7a3a9a"
           class="container justify-content-center style-xfLAJ"
-          id="style-xfLAJ">
+          id="style-xfLAJ"
+        >
           <div class="center-content content-width-large tether-target-attached-top tether-element-attached-top tether-element-attached-center tether-target-attached-center">
             <h2 class="display-heading-3">How it works</h2>
           </div>
@@ -126,7 +126,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
     </>
   );
 }
