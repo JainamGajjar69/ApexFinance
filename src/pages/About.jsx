@@ -39,8 +39,7 @@ export default function About() {
               <div className="space-bottom">
                 <h3 className="display-inline text-gray-4 smaller">
                   <strong className="display-inline text-gray-4 smaller">
-                    Will be helping in the Backend development of the website
-                    and calculator.
+                    Will be determine organizational structure and will help in ApexEdu.
                   </strong>
                 </h3>
               </div>
@@ -66,8 +65,7 @@ export default function About() {
               <div className="space-bottom">
                 <h3 className="display-inline text-gray-4 smaller">
                   <strong className="display-inline text-gray-4 smaller">
-                    Will be helping in the project by creating a budget of the
-                    institution, and allocation of funds.
+                    Will be helping in the project by creating a revenue model.
                   </strong>
                 </h3>
               </div>
@@ -93,8 +91,7 @@ export default function About() {
               <div className="space-bottom">
                 <h3 className="display-inline text-gray-4 smaller">
                   <strong className="display-inline text-gray-4 smaller">
-                    Will be helping in the Frontend development of the website
-                    and make navigation throughout the website easier
+                    Will Assist Jainam Gajjar in FrontEnd Development.
                   </strong>
                 </h3>
               </div>
@@ -120,8 +117,7 @@ export default function About() {
               <div className="space-bottom">
                 <h3 className="display-inline text-gray-4 smaller">
                   <strong className="display-inline text-gray-4 smaller">
-                    Will be handling salary allocation, organization structure
-                    and information flow of the firm.
+                    Will be handling salary allocation.
                   </strong>
                 </h3>
               </div>
