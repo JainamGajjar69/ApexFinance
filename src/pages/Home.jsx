@@ -81,10 +81,8 @@ export default function Home() {
                 </div>
                 <div>
                   <div class="space-bottom-large">
-                    <h3 class="card-heading larger">Connect</h3>
-                    <div class="card-heading text-gray-4 display-inline">
-                      Select data sources to connect to
-                    </div>
+                    <h3 class="card-heading larger">Mutual Funds</h3>
+                    <div class="card-heading text-gray-4 display-inline"></div>
                   </div>
                 </div>
               </div>
@@ -98,10 +96,8 @@ export default function Home() {
                 </div>
                 <div>
                   <div class="space-bottom-large">
-                    <h3 class="card-heading larger">Edit</h3>
-                    <div class="card-heading text-gray-4 display-inline">
-                      Edit data via a single spreadsheet UI
-                    </div>
+                    <h3 class="card-heading larger">Budget Friendly </h3>
+                    <div class="card-heading text-gray-4 display-inline"></div>
                   </div>
                 </div>
               </div>
@@ -115,10 +111,8 @@ export default function Home() {
                 </div>
                 <div>
                   <div class="space-bottom-large">
-                    <h3 class="card-heading larger">Sync</h3>
-                    <div class="card-heading text-gray-4 display-inline">
-                      Sync all data back in one-click
-                    </div>
+                    <h3 class="card-heading larger">Regular Income</h3>
+                    <div class="card-heading text-gray-4 display-inline"></div>
                   </div>
                 </div>
               </div>
