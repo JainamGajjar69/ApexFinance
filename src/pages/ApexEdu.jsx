@@ -7,7 +7,7 @@ export default function ApexEdu() {
           <div class="content-width-extra-large text-center">
             <h3 class="large-heading display-inline">Welcome to our blog.</h3>
             <h3 class="large-heading display-inline text-gray-4">
-              We write about product, design, engineering, and business.
+              We write about investment, savings, tech, and business.
             </h3>
           </div>
         </div>
