@@ -440,3 +440,85 @@ input.w-button {
 #style-IRaHw.style-IRaHw {  
    user-select: text;  
 }  
+
+
+
+
+/* footer */
+/* Default styles for the footer */
+
+.footer {
+
+  color: #fff;
+  padding: 40px 0;
+}
+
+.footer-3-left-column {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-contact-methods {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.w-layout-grid.vertical-menu-grid {
+  margin-right: 40px;
+}
+
+.text-small {
+  margin-bottom: 10px;
+}
+
+/* Media queries for responsive design */
+
+@media (max-width: 991px) {
+  .footer-3-left-column {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-contact-methods {
+    margin-bottom: 20px;
+  }
+
+  .w-layout-grid.vertical-menu-grid {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer {
+    padding: 20px 0;
+  }
+
+  .footer-3-top-row {
+    flex-direction: column;
+  }
+
+  .footer-1-bottom-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-small {
+    margin-bottom: 20px;
+  }
+
+  .social-list {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 479px) {
+  .footer-contact-methods {
+    margin-bottom: 10px;
+  }
+
+  .w-layout-grid.vertical-menu-grid {
+    margin-bottom: 10px;
+  }
+}
