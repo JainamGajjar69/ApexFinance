@@ -264,7 +264,7 @@ a:active,a:hover {
     left: 0;  
     width: 100%;  
     height: 100%;  
-}  
+}   
 @import url("https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900"); 
 * { 
     -webkit-box-sizing: border-box; 
@@ -862,3 +862,66 @@ h3 {
     transform: translate3d(0px, 0px, 0px) scale3d(0.998574, 0.998574, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
     transform-style: preserve-3d;  
 }  
+
+
+/* mene kiya */
+.section {
+  padding: 40px 0;
+}
+
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.hero-1-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+
+@media screen and (min-width: 790px) {
+  .hero-1-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.button-large {
+  display: inline-block;
+  padding: 20px 40px;
+  background-color: #0085ff;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.button-large:hover {
+  background-color: #0072d9;
+}
+
+
+.snipcss0-4-10-11 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.style-F2RwW {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  .style-F2RwW {
+    height: 0;
+    padding-bottom: 31.25%;
+  }
+}
